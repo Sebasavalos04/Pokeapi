@@ -1,0 +1,4 @@
+<p>Ingrese el nombre del pokemon que desea buscar: </p>
+<input type="text" [(ngModel)]="name" placeholder="Nombre del pokemon" (keydown.enter)="search()">
+<button  (click)="search()" >Buscar</button>
+<img src="{{img}}" alt="Imagen del pokemon" width="200">
